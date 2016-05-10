@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/TanksGame/Scenes/ModifiedGameLevel.unity
+  isLoaded: 1
+  isActive: 1

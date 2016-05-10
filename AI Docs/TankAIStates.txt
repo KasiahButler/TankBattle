@@ -1,0 +1,16 @@
+States of Tank AI
+by Kasiah J. Butler
+
+SEARCH:
+Rotates the Turret Clockwise Scanning for an Enemy Tank, if Enemy Tank is sighted Sets Cannon to AIM and Tank to CHASE
+
+AIM:
+Turret rotates and tries to center on opponents Tank then Fires if the Cannon is within Range, if the Cannon loses sight of the enemy
+for a period of time it will revert the Cannon back to SEARCH and the tank to ROAM
+
+ROAM:
+Tank Randomly decides to move LEFT, RIGHT, Or FORWARD for a set period of time until the Cannon sights an enemy Tank then shifts to CHASE
+
+CHASE:
+Tank will rotate until it is facing enemy tank and then move forward until it is in range to fire, if the Cannon loses sight of the enemy
+for a period of time the Tank will revert back to ROAM
